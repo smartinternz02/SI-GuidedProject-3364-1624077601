@@ -58,7 +58,7 @@ def launch():
             return render_template("3.html",showcase =  str(result))
         else:
             return render_template("4.html",showcase =  str(result))
-        #return result#resturing the result
+        #return result #resturing the result
     else:
         return None
      
